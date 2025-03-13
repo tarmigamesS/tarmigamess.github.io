@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- **** SETUP **** -->
+<head>
+
+	<!-- GOOGLE TAG (GTAG.JS) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-43MR9HRVBZ"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-43MR9HRVBZ');
+	</script>
+
+
+	<!-- CSS -->
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://tarmigamess.github.io/CSS/Main.css"> 
+	<link rel="stylesheet" href="https://tarmigamess.github.io/CSS/LandingPage.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:regular,500,600,700,800,900" media="all">
+
+	<!-- LINK -->
+	<link rel="icon" type="image" href="https://tarmigamess.github.io/Images/Logo/Logo.png">
+	<title>Deeper Talks - Question Games for Couples</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="This relationship app for couples will help you and your partner get to know each other deeper and strengthen your relationship.">
+
+	<!-- TAB INFO -->
+	<meta property="og:image" content="https://tarmigamess.github.io/Images/Logo/Logo.png">
+	<meta property="og:title" content="Deeper Talks - Question Games for Couples">
+	<meta property="og:description" content="This relationship app for couples will help you and your partner get to know each other deeper and strengthen your relationship.">
+	
+
+	<!-- **** REDIRECT **** -->
+	<script>
+	function getMobileOperatingSystem() {
+		var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+		// Windows Phone must come first because its UA also contains "Android"
+		if (/windows phone/i.test(userAgent)) {
+			return "Windows Phone";
+		}
+		if (/android/i.test(userAgent)) {
+			return "Android";
+		}
+		// iOS detection from: http://stackoverflow.com/a/9039885/177710
+		if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+			return "iOS";
+		}
+
+		return "unknown";
+	}</script>
+
+	<script>
+	function DetectAndServe(){
+		let os = getMobileOperatingSystem();
+		if (os == "Android") {
+			window.location.href = "https://play.google.com/store/apps/details?id=com.Tarmi.GetDeeperTalks"; 
+		} else if (os == "iOS") {
+			window.location.href = "https://apps.apple.com/us/app/deeper-talks-relationships/id1590680216";
+		} else {
+			window.location.href = "https://www.deepertalks.com";
+		}
+	}
+	</script>
+	<!-- **** REDIRECT **** -->
+
+
+</head>
+<!-- **** SETUP **** -->
+
+
+
+<body onload="DetectAndServe()">
+
+
+	<!-- **** HEADER **** -->
+    <div class="section-header">
+		<div class="section-header-sizer">
+			<div class="section-header-logo">
+				<a href="https://www.deepertalks.com"><img src="https://tarmigamess.github.io/Images/Logo/Logo-Name.svg" loading="lazy" height="40" alt="Deeper Talks: Relationship"></a>
+			</div>
+			<div class="section-header-tabs-holder">
+				<a href="https://www.deepertalks.com/questions-for-couples" class="tab">Blog</a>
+				<a href="https://www.deepertalks.com" class="tab">Download App</a>
+			</div>
+			<div class="section-header-menu">
+					<img class="image-menu" src="https://tarmigamess.github.io/Images/Menu/Menu.svg" loading="lazy" hight="30" width="30" alt="Deeper Talks Menu" onclick="button_HeaderMenu()">
+			</div>
+		</div>
+		<div class="section-header-menu-tabs-holder" id="section-header-menu-tabs-holder">
+			<a href="https://www.deepertalks.com/questions-for-couples" class="tab-menu">Blog</a>
+			<a href="https://www.deepertalks.com" class="tab-menu">Download App</a>
+		</div>
+    </div>
+	
+	<!-- **** SCRIPT **** -->
+	<script>
+		function button_HeaderMenu() {
+		var menu = document.getElementById("section-header-menu-tabs-holder");
+		menu.style.display = (menu.style.display === "block") ? "none" : "block";
+		}
+	</script>
+
+	<script>
+		window.addEventListener('resize', function() {
+		var menu = document.getElementById("section-header-menu-tabs-holder");
+		if (window.innerWidth > 800) {
+		menu.style.display = "none";
+		}});
+	</script>
+	<!-- **** SCRIPT **** -->
+	<!-- **** HEADER **** -->
+	
+	
+	<!-- **** SECTION MAIN 1 **** -->
+	<div class="section-main-1">
+		<div class="section-main-1-sizer">
+			<div class="section-main-1-inner">
+				<div class="section-main-1-left">
+					<div class="font-title-main-1">Strengthen your relationship</div>
+					<div class="font-subtext-main-1">Have guided conversations to reflect on your relationship with the Deeper Talks app for couples.</div>
+					<div class="download-link-holder">
+						<a href="https://apps.apple.com/app/deeper-talks-relationships/id1590680216"><img class="image-store-as" src="https://tarmigamess.github.io/Images/Store/AppStore.svg" loading="lazy"alt=""></a>
+						<a href="https://play.google.com/store/apps/details?id=com.Tarmi.GetDeeperTalks"><img class="image-store-gp" src="https://tarmigamess.github.io/Images/Store/PlayStore.svg" loading="lazy" alt=""></a>
+					</div>
+				</div>
+				<div class="section-main-1-right">
+					<img class="image-screenshot" src="https://tarmigamess.github.io/Images/Screenshot/Screenshot_1.png" loading="lazy" width="300" alt="Questions to ask your wife">
+				</div>
+			</div>
+		</div>
+    </div>
+	<!-- **** SECTION MAIN 1 **** -->
+
+
+	<!-- **** SECTION MAIN 2 **** -->
+	<div class="section-main-2">
+		<div class="section-main-2-sizer">
+			<div class="section-main-2-inner">
+				<div class="section-main-2-right-small">
+					<div class="font-title-main">Ask the questions you haven't had a chance to ask</div>
+					<div class="font-subtext-main">Discuss personal, intimate, and sexy topics together during date night. Build a deeper understanding of each other on a variety of topics.</div>
+				</div>
+				<div class="section-main-2-left">
+					<img class="image-screenshot" src="https://tarmigamess.github.io/Images/Screenshot/Screenshot_2.png" loading="lazy" width="300" alt="Questions to ask your husband">
+				</div>
+				<div class="section-main-2-right">
+					<div class="font-title-main">Ask the questions you haven't had a chance to ask</div>
+					<div class="font-subtext-main">Discuss personal, intimate, and sexy topics together during date night. Build a deeper understanding of each other on a variety of topics.</div>
+				</div>
+			</div>
+		</div>
+    </div>
+	<!-- **** SECTION MAIN 2 **** -->
+	
+
+	<!-- **** SECTION MAIN 3 **** -->
+	<div class="section-main-3">
+		<div class="section-main-3-sizer">
+			<div class="section-main-3-inner">
+				<div class="section-main-3-left">
+					<div class="font-title-main">What does your partner really think?</div>
+					<div class="font-subtext-main">Play fun couple games and test your knowledge of each other.</div>
+				</div>
+				<div class="section-main-3-right">
+					<img class="image-screenshot" src="https://tarmigamess.github.io/Images/Screenshot/Screenshot_3.png" loading="lazy" width="300" alt="Questions to ask your significant other">
+				</div>
+			</div>
+		</div>
+    </div>
+	<!-- **** SECTION MAIN 3 **** -->
+
+
+    <!-- **** FOOTER **** -->
+	<div class="section-footer">
+		<div class="section-footer-socials">
+			<div class="section-footer-socials-buffer">
+				<a href="https://www.instagram.com/getdeepertalks/"><img class="image-social" src="https://tarmigamess.github.io/Images/Social/Logo_IG.svg" loading="lazy" width="24" alt="Deeper Talks on Instagram"></a>
+				<a href="https://www.facebook.com/Deeper-Talks-302000534925891"><img class="image-social" src="https://tarmigamess.github.io/Images/Social/Logo_FB.png" loading="lazy" width="24" alt="Deeper Talks on Facebook"></a>
+			</div>
+			<a href="https://www.deepertalks.com/"><img src="https://tarmigamess.github.io/Images/Logo/Logo-Name.svg" loading="lazy" width="151" alt="Deeper Talks: Relationship"></a>
+		</div>
+	</div>
+    <!-- **** FOOTER **** -->
+	
+
+</body>
+</html>
+
+
